@@ -1,2 +1,0 @@
-# OveractGamesSite
-Site development repository
