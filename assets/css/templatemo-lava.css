@@ -867,8 +867,16 @@ testimonials
   position: relative;
   z-index: 9;
 }
+#games {
+  padding-top: 100px;
+  position: relative;
+  z-index: 9;
+}
 
 #testimonials .item {
+  position: relative;
+}
+#games .item {
   position: relative;
 }
 
@@ -911,6 +919,51 @@ testimonials
 }
 
 #testimonials .author img {
+  max-width: 120px;
+  margin-bottom: -60px;
+}
+
+
+
+#games .item .games-content {
+  background: rgb(244,129,63);
+  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  margin-left: 60px;
+  padding: 40px 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#games .item .games-content ul li {
+  display: inline-block;
+  margin: 0px 1px;
+}
+
+#games .item .games-content ul li i {
+  color: #fff;
+  font-size: 13px;
+}
+
+#games .item .games-content h4 {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+#games .item .games-content p {
+  color: #fff;
+  font-style: italic;
+  font-weight: 200;
+  margin: 20px 0px 15px 0px;
+}
+
+#games .item .games-content span {
+  color: #fff;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+#games .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
