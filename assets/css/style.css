@@ -311,7 +311,6 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
@@ -370,12 +369,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-overly {
   width: 100%;
-  height: 100%;
+  height: 50%;
   z-index: 9997;
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(13, 18, 252, 0.6);
+  background: rgba(32, 32, 32, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
