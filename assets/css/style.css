@@ -306,6 +306,11 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle i {
   color: #fff;
 }
+.mdi-36px {
+  font-size: 39px;
+  margin-right: 10px
+}
+
 
 .mobile-nav {
   position: fixed;

@@ -32,7 +32,7 @@
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
+        }, 500, 'easeOutBack');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('active');
@@ -60,6 +60,7 @@
         }, 1500, 'easeInOutExpo');
       }
     }
+    console.log($('.cofee-count').html());
   });
 
   // Mobile Navigation
