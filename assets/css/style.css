@@ -403,14 +403,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/pixel-jeff-clipa-s.gif");
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(29, 29, 29, 0.91);
+  background: rgba(240, 240, 240, 0);
   position: absolute;
   bottom: 0;
   top: 0;
