@@ -92,13 +92,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #1acc8d;
+  background: #1ab7cc;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #2be4a2;
+  background: #12c7be;
   color: #fff;
 }
 
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/pixel-jeff-clipa-s.gif");
+  background: url("../img/638841.png");
   position: relative;
   padding: 120px 0 0 0;
 }
